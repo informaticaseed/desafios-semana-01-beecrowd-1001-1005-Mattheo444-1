@@ -18,3 +18,10 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+A = float(input())
+B = float(input())
+
+# Pesos: A = 3.5, B = 7.5. Soma dos pesos = 11.0
+media = (A * 3.5 + B * 7.5) / 11.0
+
+print(f"MEDIA = {media:.5f}")
